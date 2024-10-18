@@ -13,7 +13,6 @@ function App() {
     fetch(API_URL)
     .then((res)=>res.json())
     .then(data=>{
-      console.log(16, data)
       setMovies(data);
     })
   },[])
